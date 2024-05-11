@@ -1,0 +1,523 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-image: url(./Homepage-Model-Y-Desktop-Global.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    color: rgb(60, 60, 60);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left img {
+    width: 100%;
+    height: 14px;
+}
+
+.center ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.right ul {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.center {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.img-text {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.img-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.img-text h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.img-text p {
+    padding-top: 0.4%;
+    font-size: small;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+}
+
+.img-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 26%;
+}
+
+.img-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 13%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Model-3-Desktop-LHD-v2.avif);
+    object-fit: cover;
+}
+
+.section1-text {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.section1-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section1-text h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.section1-text p {
+    padding-top: 0.2%;
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+}
+
+.section1-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 27%;
+}
+
+.section1-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Model-X-Desktop.avif);
+    object-fit: cover;
+}
+
+.section2-text {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.section2-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section2-text h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.section2-text p {
+    padding-top: 0.2%;
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+}
+
+.section2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 27%;
+}
+
+.section2-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Model-S-Desktop-LHD-6.22.avif);
+    object-fit: cover;
+}
+
+.section3-text {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.section3-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section3-text h3 {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.section3-text p {
+    padding-top: 0.2%;
+    font-size: smaller;
+    letter-spacing: 1px;
+    color: rgb(70, 70, 70);
+}
+
+.section3-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 27%;
+}
+
+.section3-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section4 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Cybertruck-Desktop.avif);
+    object-fit: cover;
+}
+
+.section4-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10%
+}
+
+.section4-img img {
+    width: 20%;
+}
+
+.section4-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 25%;
+}
+
+.section4-button button {
+    font-weight: 700;
+    font-size: 12px;
+    border: solid rgb(100, 100, 100) 0.7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section5 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-SolarPanels-01-Desktop.avif);
+    object-fit: cover;
+    color: white;
+}
+
+.section5-text {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.section5-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section5-text p {
+    padding-top: 0.2%;
+    font-size: medium;
+    letter-spacing: 1px;
+    text-decoration:underline;
+}
+
+.section5-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 29%;
+}
+
+.section5-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section6 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-SolarRoof-Desktop-Global.avif);
+    object-fit: cover;
+    color: white;
+}
+
+.section6-text {
+    padding-top: 8%;
+    text-align: center;
+    color: black;
+}
+
+.section6-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section6-text p {
+    padding-top: 0.2%;
+    font-size: medium;
+    letter-spacing: 1px;
+}
+
+.section6-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 29%;
+}
+
+.section6-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+
+.section7 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Powerwall-01-Desktop.avif);
+    object-fit: cover;
+    color: white;
+}
+
+.section7-text {
+    padding-top: 8%;
+    text-align: center;
+    color: black;
+}
+
+.section7-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section7-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 29%;
+}
+
+.section7-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+.section8 {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./Homepage-Accessories-Desktop-NA-APAC.avif);
+    object-fit: cover;
+    color: white;
+}
+
+.section8-text {
+    padding-top: 8%;
+    text-align: center;
+    color: black;
+}
+
+.section8-text h1 {
+    font-size: xxx-large;
+    font-weight: 400;
+}
+
+.section8-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 20px;
+    padding-top: 29%;
+}
+
+.section8-button button {
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    width: 14%;
+    height: 40px;
+    opacity: 0.9;
+}
+footer{
+    width: 100%;
+    height: 330px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+footer h3{
+    font-size: small;
+    text-decoration:underline;
+}
+footer p{
+    font-size: small;
+    letter-spacing: 0.9px;
+    color: rgb(210, 210, 210);
+}
+.footer-navbar {
+    display: flex;
+    font-size: small;
+    align-items: center;
+    justify-content: center;
+}
+footer ul{
+    gap: 20px;
+    display: flex;
+    color: rgb(210, 210, 210);
+}
